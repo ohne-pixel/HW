@@ -1,2 +1,2 @@
-# HW2
+# HW
 Variant #1
