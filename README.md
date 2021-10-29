@@ -1,2 +1,2 @@
-# HW
-added HW
+# HW2
+Variant #1
