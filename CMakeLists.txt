@@ -1,3 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(project)
+
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(homework1 main.cpp functions.cpp functions.h)
+add_subdirectory(homework1)
+add_subdirectory(homework2)
