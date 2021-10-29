@@ -1,6 +1,6 @@
 #include <fstream>
 #include <iostream>
-#include "functions.h"
+#include "strutils.h"
 #include <cmath>
 #include <valarray>
 
