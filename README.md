@@ -1,2 +1,2 @@
-# HW
+# My homework
 Variant #1
