@@ -1,2 +1,2 @@
-# My homework
+# Some homework
 Variant #1
