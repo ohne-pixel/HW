@@ -1,3 +1,3 @@
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(homework2 main.cpp strutils.cpp strutils.h)
+add_executable(homework2 main.cpp functions.cpp functions.h)
