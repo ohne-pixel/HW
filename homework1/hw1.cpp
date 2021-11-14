@@ -17,7 +17,7 @@ int main(){
 
     while (infile >> x >> y){
         double cos = (x0*x+y0*y) / (sqrt(x*x+y*y)*sqrt(x0*x0+y0*y0));
-        cos = std::lround(cos);
+        cos = std::lround(cos); // or use lrint
 
         if (cos <= _cos_l && (y0*x < x0*y)){
             _cos_l = cos;
