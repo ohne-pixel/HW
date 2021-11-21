@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <cmath>
-#include <cstdlib>
+#include <stdlib.h>
 
 int main() {
     std::ifstream infile("in.txt");
