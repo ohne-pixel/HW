@@ -61,7 +61,7 @@ int main(int argc, char** argv) {
                 return 0;
             }
           
-            if (h0 > partition[goal].second) { // вектор скорости в обратную сторону
+            if (h0 > partition[goal].second) {
                 (vx > 0) ? interval++ : interval--;
             } else {
                 vx = vx*(-1);
