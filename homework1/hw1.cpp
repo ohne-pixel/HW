@@ -24,7 +24,7 @@ int main() {
             xl = x; yl = y;
         }
 
-        else {
+        if (cos <= _cos_r && (y0*x >= x0*y)){
             _cos_r = cos;
             xr = x; yr = y;
         }
