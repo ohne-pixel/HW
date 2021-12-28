@@ -14,9 +14,8 @@ xn hn
 int main(int argc, char** argv) {
     if (argc == 2) {
         std::ifstream infile(argv[1]); // в argv[1] содержится строка с первым агрументом (имя файла)
-        std::vector < std::pair < double, double >> partition; // аналог std::cout << "1st argument: "<< argv[1] << std::endl для перегородки
+        std::vector < std::pair < double, double >> partition;
       
-        // идём по файлу
         double h0;
         double x = 0;
         infile >> h0;
@@ -27,10 +26,10 @@ int main(int argc, char** argv) {
         double g = -9.81;
 
         int size = 0;
-        int interval = 0; // промежутки
+        int interval = 0;
 
         while (true) {
-            int goal = (vx > 0) ? interval : interval - 1; // тернарный оператор
+            int goal = (vx > 0) ? interval : interval - 1;
 
             if (goal < 0) {
                 std::cout << "0" << std::endl;
@@ -38,10 +37,10 @@ int main(int argc, char** argv) {
             }
           
             if (goal > size - 1) {
-                double xi, hi; // положения перегородок
+                double xi, hi;
               
                 if (infile >> xi >> hi) {
-                    partition.push_back(std::make_pair(xi, hi)); // добавление элементов в вектор перегородки 
+                    partition.push_back(std::make_pair(xi, hi));
                     size++;
                 } else {
                     std::cout << size << std::endl;
